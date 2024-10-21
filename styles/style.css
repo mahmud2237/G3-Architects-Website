@@ -142,13 +142,57 @@ main>section {
   font-weight: 500;
 }
 
+/* Love and Enjoy related styles */
+.enjoy-love {
+  flex-direction: row;
+  justify-content: space-between;
+  width: 1440px;
+  height: 1050px;
+  margin-bottom: 180px;
+}
+
+.enjoy-love-div1 {
+  flex-direction: column;
+  align-items: center;
+}
+
+.enjoy-love-div-box {
+  width: 586px;
+  height: 171px;
+  padding: 30px;
+  fleborder-radius: 8px;
+  box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.06);
+  background: rgb(255, 255, 255);
+}
+
+.enjoy-love-div2 {
+  position: relative;
+  color: #FFFFFF;
+}
+
+.enjoy-love-div2-box {
+  position: absolute;
+  width: 342px;
+  height: 250px;
+  justify-content: center;
+  align-items: center;
+  bottom: -50px;
+  right: 420px;
+  border-radius: 8px;
+  background: rgb(255, 144, 14);
+}
+.enjoy-love-div2-box-div {
+  align-items: center;
+  padding: 20px;
+}
+
 /* Some facts related styles */
 .facts-container {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   gap: 70px;
-  
 }
+
 .fact-card {
   flex-direction: column;
   justify-content: center;
@@ -158,34 +202,50 @@ main>section {
   border: 1px solid #FF900E;
   border-radius: 8px;
 }
-.fact-number{
+
+.fact-number {
   font-size: 2.8rem;
   font-weight: 600;
   margin-top: 5px;
   margin-bottom: 10px;
 }
-.fact-name{
+
+.fact-name {
   font-size: 1.25rem;
   font-weight: 600;
   margin-top: 10px;
 }
 
 
-/* Sponsor related styles */
-.sponsor-info{
+/* Footer and Sponsor related styles */
+footer {
+  margin-top: 180px;
+}
+
+.sponsor-info {
   max-width: 540px;
   margin: 50px auto;
   text-align: center;
 }
-.img-info{
+
+.sponsor-img-info {
   justify-content: space-evenly;
   align-items: center;
+  margin-top: 60px;
+  margin-bottom: 130px;
 }
-.img-info img{
-  width: 140px;
+
+.sponsor-img-info img {
+  width: 120px;
   height: 50px;
 }
 
+.copyright {
+  justify-content: center;
+  align-items: center;
+  border-radius: 8px;
+  background: rgb(255, 244, 231);
+}
 
 /* Responsive query start here */
 @media screen and (max-width: 576px) {
